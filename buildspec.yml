@@ -10,4 +10,4 @@ phases:
   post_build:
     commands:
       - aws s3 cp --recursive ./.next s3://satvik-bucket
-      - aws cloudfront create-invalidation --distribution-id E7HIBIR35Q2PN --path/\*
+      - aws cloudfront create-invalidation --distribution-id E7HIBIR35Q2PN 
